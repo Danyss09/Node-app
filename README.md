@@ -24,19 +24,19 @@ cd <DIRECTORY_NAME>
 Alternatively, you can pull the Docker image directly from Docker Hub:
 
 ```bash
-docker pull daniela0919/node-app:1.0
+docker pull daniela0919/node-app:latest
 ```
 
 ### 2. Build the Docker image (Skip this step if you pulled the image directly)
 
 ```bash
-docker build -t daniela0919/node-app:1.0 .
+docker build -t daniela0919/node-app:latest .
 ```
 
 ### 3. Run the container
 
 ```bash
-docker run -p 3000:3000 daniela0919/node-app:1.0
+docker run -p 3000:3000 daniela0919/node-app:latest
 ```
 
 The container will display the following message in the console:
